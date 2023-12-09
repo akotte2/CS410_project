@@ -29,7 +29,7 @@ class TestEntityExtraction:
             metrics_dict (dict): accuracy, precision, and recall values for old and new entity extraction results for both names and emails
         """
         # run main program to get entity extraction results
-        extracted_names, extracted_emails = self.new_entity_extraction.main(
+        extracted_names, extracted_emails = self.new_entity_extraction.perform_extractions(
             seed=self.seed, run_subset=self.run_subset, output_folder="test_results"
         )
         has_extracted_name = self.convert_extraction_to_label(extracted_names)

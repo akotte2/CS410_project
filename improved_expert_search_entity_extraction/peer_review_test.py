@@ -14,10 +14,10 @@ metrics = test_extraction.test_extraction_performance()
 print("Test New Faculty Bio Entity Extraction Methodology: End Run")
 print("Entity Extraction Metrics Comparison for Old & New Methodologies: ", metrics)
 
-print("Entity Extraction on 50 random Faculty Bios: Begin Run")
+print("Entity Extraction on 50 Random Faculty Bios: Begin Run")
 extraction_model = ExtractBioEntities()
-names, emails = extraction_model.perform_extractions(run_subset=50, output_folder="subset_results")
-print("Entity Extraction on 50 random Faculty Bios: End Run")
+names, emails = extraction_model.perform_extractions(run_subset=50, seed=1, output_folder="subset_results")
+print("Entity Extraction on 50 Random Faculty Bios: End Run")
 print("Faculty Names: ", names)
 print("Faculty Emails: ", emails)
 
