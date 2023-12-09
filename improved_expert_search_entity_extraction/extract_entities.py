@@ -8,10 +8,6 @@ import warnings
 
 warnings.simplefilter(action="ignore", category=FutureWarning)
 
-
-# TODO: evaluate results in openrefine against previous version results
-# TODO: create readme
-# TODO: final run, film beginning and end
 class ExtractBioEntities:
     def __init__(self):
         """Initialize variables for instance of extract_bio_entities class

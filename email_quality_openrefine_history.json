@@ -1,0 +1,113 @@
+[
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Column 1",
+    "newColumnName": "EmailAddress",
+    "description": "Rename column Column 1 to EmailAddress"
+  },
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "EmailAddress",
+    "guessCellType": true,
+    "removeOriginalColumn": false,
+    "mode": "separator",
+    "separator": "@",
+    "regex": false,
+    "maxColumns": 0,
+    "description": "Split column EmailAddress by separator"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "EmailAddress 1",
+    "newColumnName": "RecipientName",
+    "description": "Rename column EmailAddress 1 to RecipientName"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "EmailAddress 2",
+    "newColumnName": "DomainName",
+    "description": "Rename column EmailAddress 2 to DomainName"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "RecipientName",
+    "expression": "jython:char_list = [ \"[\", \"@\", \"_\", \"!\", \"#\", \"$\", \"%\", \"^\", \"&\", \"*\", \"(\", \")\", \"<\", \">\", \"?\", \"/\", \"|\", \"}\", \"{\", \"~\", \":\", \"]\", \".\", \"-\", \"+\" ]\n\nreturn any(special_char in value[-1] for special_char in char_list)",
+    "onError": "set-to-blank",
+    "newColumnName": "recipient_ends_special_char",
+    "columnInsertIndex": 2,
+    "description": "Create column recipient_ends_special_char at index 2 based on column RecipientName using expression jython:char_list = [ \"[\", \"@\", \"_\", \"!\", \"#\", \"$\", \"%\", \"^\", \"&\", \"*\", \"(\", \")\", \"<\", \">\", \"?\", \"/\", \"|\", \"}\", \"{\", \"~\", \":\", \"]\", \".\", \"-\", \"+\" ]\n\nreturn any(special_char in value[-1] for special_char in char_list)"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "DomainName",
+    "expression": "jython:char_list = [ \"[\", \"@\", \"_\", \"!\", \"#\", \"$\", \"%\", \"^\", \"&\", \"*\", \"(\", \")\", \"<\", \">\", \"?\", \"/\", \"|\", \"}\", \"{\", \"~\", \":\", \"]\", \"-\", \"+\" ]\n\nreturn any(special_char in value[-1] for special_char in char_list)",
+    "onError": "set-to-blank",
+    "newColumnName": "domain_ends_special_char",
+    "columnInsertIndex": 4,
+    "description": "Create column domain_ends_special_char at index 4 based on column DomainName using expression jython:char_list = [ \"[\", \"@\", \"_\", \"!\", \"#\", \"$\", \"%\", \"^\", \"&\", \"*\", \"(\", \")\", \"<\", \">\", \"?\", \"/\", \"|\", \"}\", \"{\", \"~\", \":\", \"]\", \"-\", \"+\" ]\n\nreturn any(special_char in value[-1] for special_char in char_list)"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "DomainName",
+    "expression": "jython:char_list = [ \"[\", \"@\", \"_\", \"!\", \"#\", \"$\", \"%\", \"^\", \"&\", \"*\", \"(\", \")\", \"<\", \">\", \"?\", \"/\", \"|\", \"}\", \"{\", \"~\", \":\", \"]\", \"+\" ]\n\nreturn any(special_char in value for special_char in char_list)",
+    "onError": "set-to-blank",
+    "newColumnName": "domain_contains_special_char",
+    "columnInsertIndex": 4,
+    "description": "Create column domain_contains_special_char at index 4 based on column DomainName using expression jython:char_list = [ \"[\", \"@\", \"_\", \"!\", \"#\", \"$\", \"%\", \"^\", \"&\", \"*\", \"(\", \")\", \"<\", \">\", \"?\", \"/\", \"|\", \"}\", \"{\", \"~\", \":\", \"]\", \"+\" ]\n\nreturn any(special_char in value for special_char in char_list)"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "DomainName",
+    "expression": "grel:value.contains('.')",
+    "onError": "set-to-blank",
+    "newColumnName": "domain_contains_period",
+    "columnInsertIndex": 4,
+    "description": "Create column domain_contains_period at index 4 based on column DomainName using expression grel:value.contains('.')"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "EmailAddress",
+    "expression": "grel:value.contains('@')",
+    "onError": "set-to-blank",
+    "newColumnName": "email_contains_at",
+    "columnInsertIndex": 1,
+    "description": "Create column email_contains_at at index 1 based on column EmailAddress using expression grel:value.contains('@')"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "EmailAddress",
+    "expression": "grel:isBlank(value)",
+    "onError": "set-to-blank",
+    "newColumnName": "missing_email",
+    "columnInsertIndex": 1,
+    "description": "Create column missing_email at index 1 based on column EmailAddress using expression grel:isBlank(value)"
+  }
+]
