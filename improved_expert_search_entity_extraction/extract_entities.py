@@ -8,6 +8,7 @@ import warnings
 
 warnings.simplefilter(action="ignore", category=FutureWarning)
 
+
 class ExtractBioEntities:
     def __init__(self):
         """Initialize variables for instance of extract_bio_entities class
