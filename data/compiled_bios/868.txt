@@ -1,0 +1,1 @@
+ N. Farnan, A. Lee, P. Chrysanthis, and T. Yu., "Preference-Aware Query Optimization for Decentralized Database Systems," 12th Hellenic Data Management Symposium, pp. 424-435, Athens, Greece, July 2014. 

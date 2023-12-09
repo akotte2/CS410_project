@@ -1,0 +1,1 @@
+Lyle's current research focuses on developing scalable machine learning methods for data mining and text mining, including deep learning methods for NLP, and analysis of text and images in social media to better understand the drivers of physical and mental well-being.

@@ -1,0 +1,1 @@
+I work in designing and analyzing algorithms, with applications in variety of areas from analyzing data streams to Internet auctions, databases, networking, compression, string matching and other areas.

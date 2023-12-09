@@ -1,0 +1,1 @@
+ Application of AI, ML, Bayesian networks, and other computational methods to problems in biology, medicine, and translational research Modeling of interactome networks and human diseases Personalized medicine and cancer bioinformatics Medical decision support systems 

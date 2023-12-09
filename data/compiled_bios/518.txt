@@ -1,0 +1,1 @@
+Frederic Chong Seymour Goodman ProfessorDepartment of Computer Science Email: chong@cs.uchicago.edu Phone: (773) 834-4545 Office: JCL 239 Website: http://people.cs.uchicago.edu/~ftchong/ Research: computer architecture, computer security, emerging technologies for computing, multicore and embedded architectures, sustainable computing, systems 

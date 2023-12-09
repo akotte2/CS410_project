@@ -1,0 +1,1 @@
+ : Education Ph.D. in Computer Science from University of Nebraska - Lincoln Research Interests: Software Testing Program Analysis Concurrent Software Systems Embedded Software Fault Localization. 

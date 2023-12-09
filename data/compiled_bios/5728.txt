@@ -1,0 +1,1 @@
+ A web page that points a browser to a different page after 2 seconds If your browser doesn't automatically go there within a few seconds, you may want to go to the destination manually. 

@@ -1,0 +1,1 @@
+Zizhan Zheng is an Assistant Professor of Computer Science at Tulane University. His research is in the areas of networking, cloud computing, and cybersecurity, with a focus on algorithm and mechanism design for enabling more efficient, sustainable, and dependable networking and computing systems. He is currently working in two directions:

@@ -1,0 +1,1 @@
+ William J. Bowman Assistant Professor Email: wilbowma@cs.ubc.ca Office: ICCS 389 Homepage: https://www.williamjbowman.com/ Lab(s): SPL I work on compilers, verification, type theory, and meta-programming. 

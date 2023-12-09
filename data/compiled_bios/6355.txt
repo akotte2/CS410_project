@@ -1,0 +1,1 @@
+Martin Farach-Colton's work focuses on algorithms and data structures, particularly in external memory. In addition to his theoretical work, he co-founded Tokutek, a database company, and is currently developing BetrFS, a high-performance file system based on his data structural work

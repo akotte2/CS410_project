@@ -1,0 +1,1 @@
+ Norman C. Hutchinson Associate Professor Research Interests Operating systems, storage systems. Programming languages Computer communications and protocols Virtual machine monitors and their uses Teaching I'm currently teaching CPSC 411 - Introduction to Compiler Construction . 

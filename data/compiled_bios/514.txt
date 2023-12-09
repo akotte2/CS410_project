@@ -1,0 +1,1 @@
+Dave MacQueen Professor EmeritusDepartment of Computer Science Email: macqueen@cs.uchicago.edu Research: functional programming, modules, programming languages, types and type checking Projects Standard ML of New Jersey

@@ -1,0 +1,1 @@
+ Dr. Childers received a BS degree (Computer Science, 1991) from the College of William and Mary, and a PhD degree (Computer Science, 2000) from the University of Virginia. He developed a novel system for the automatic design of application-specific processors. He also worked in industry on projects for custom VLIW/systolic architectures and low-power embedded processors. 

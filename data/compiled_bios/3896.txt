@@ -1,0 +1,1 @@
+ Rick Mercer Spring 2019 Courses CSC 382 Software Development with C++ CSC 250 Essential Computing for the Sciences Office Hours 9-Jan to 1-May 809 Gould-Simpson, Mondays and Wednesdays, 11:15-12:15 Or by appointment mercer@cs.arizona.edu Books Computing Fundamentals with C++; 3rd Edition; Franklin, Beedle Resources Computing Fundamentals with Java and JUnit Resources 

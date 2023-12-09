@@ -1,0 +1,1 @@
+Evan  McCarty Lecturer Department of Computer Science Contact Building & Room: 931 SEO Office Phone Voice: (312) 996-3082 Email: emccarty@uic.edu About Research Interests: Design and analysis of randomized algorithms, computational game theory, machine learning Education MS, Computer Science, Rensselaer Polytechnic Institute

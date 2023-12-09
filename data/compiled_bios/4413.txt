@@ -1,0 +1,1 @@
+Professor Kfoury is a professor of computer science currently teaching about programming languages and type theory. His current research is in internet programming through theiBench initiatveas well as theChurch Project, which investigates the foundations, design principles and implementation techniques of programming languages. 

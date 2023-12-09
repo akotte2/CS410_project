@@ -1,0 +1,1 @@
+I work at the interface of Machine Learning and Theoretical Computer Science. Modern machine learning tasks pose a unique challenge for theoreticians as traditional worst case analysis leaves something to be desired and does not always accurately reflect the "practical" understanding of such problems. The kind of questions I ponder about are

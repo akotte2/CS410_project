@@ -1,0 +1,1 @@
+My research interests are: . Fourier Analysis of Boolean functions . Constraint satisfaction problems: random instances and inapproximability . Quantum computation and information theory . Complexity theory, especially concrete complexity and proof complexity . Probability theory . Property testing and learning theory

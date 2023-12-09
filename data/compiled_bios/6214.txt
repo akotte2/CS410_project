@@ -1,0 +1,1 @@
+Assistant Professor Proceduralist Readings, Procedurally Generating Abstract Comics Programming Interactive Worlds with Linear Logic. Ceptre: A Language for Modeling Generative, Interactive Systems. Generative Story Worlds as Linear Logic Programs. Linear Logic Programming for Narrative Generation.

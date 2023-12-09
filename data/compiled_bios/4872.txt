@@ -1,0 +1,1 @@
+Research in information extraction from text corpora, such as patents, scientific publications, and medical records, using supervised and semi-supervised machine learning.

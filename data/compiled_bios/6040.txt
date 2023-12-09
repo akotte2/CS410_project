@@ -1,0 +1,1 @@
+ Username: * Enter your Computer Science at UBC username. Password: * Enter the password that accompanies your username. 
