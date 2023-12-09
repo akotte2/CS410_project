@@ -225,16 +225,22 @@ Requires Python 3.7.6 or later.
 
  To install dependencies, run:
 
- `pip install -r requirements.txt` 
+ ```
+ pip install -r requirements.txt
+ ```
 
 ### Run Peer Reviewer Test to Demo Capabilities
 To demo this program, the peer_review_test.py will walk users through three functionalities. Each functionality demonstration will take about 2-3 minutes. Note - if you have never used Flair on your device before, the first demo may download and install additional packages, taking an extra ~2 minutes. 
 
-Type the following commands to begin:
+Type the following commands sequentially to begin:
 
-`cd improved_expert_search_entity_extraction`
+```
+cd improved_expert_search_entity_extraction
+```
 
-`python peer_review_test.py`
+```
+python peer_review_test.py
+```
 
 You should see the following statement appear soon: 
 ```
