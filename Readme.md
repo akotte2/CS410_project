@@ -4,6 +4,13 @@ For my CS 410 Fall 2023 final project, I have chosen Theme 3: System Extension i
 
 Overall, my entity extraction system performs better than the old system according to both quantitative and qualitative metrics.
 
+**[Intro Video](https://drive.google.com/file/d/1cZmn0FWqCvSUjP2-1Tez0I3L3KAsaJGd/view?usp=sharing)**
+
+**[Software Usage Tutorial Presentation Video](https://drive.google.com/file/d/19u-lXInKXEpq0QBf_gQexIztkKAuxXn0/view?usp=sharing)**
+
+**[Video Proof Program Runs on Full Dataset (All Faculty Bios)](https://drive.google.com/file/d/1sTinfSMyZ2EBkmjFNlqUwRNiUmIF7D4w/view?usp=sharing)** 
+
+
 ### About ExpertSearch
 
 [Copied from CS 410 Projects Topic guide] The [ExpertSearch system](http://timan102.cs.illinois.edu/expertsearch//) was developed by some previous CS410 students as part of their course project! The system aims to find faculty specializing in the given research areas. The underlying data and ranker currently comes from the MP2 submissions of the previous course offering. 
